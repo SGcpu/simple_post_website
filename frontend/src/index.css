@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+
+.create-post-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #f0f2f5;
+}
+
+.create-post-section form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;    
+    gap: 10px;   
+    justify-content: center;
+    align-items: center; 
+    background-color:beige;
+    padding: 20px;
+}
+
+.create-post-section button{
+    padding: 10px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+}
+.create-post-section input,
+.create-post-section textarea{
+    padding: 10px;
+    margin: 10px 0;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.feed-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 20%;
+    height: 100%;
+    width: 100%;
+    background-color: #f0f2f5;
+    padding: 20%;
+}
+.post-card{
+    background-color: whitesmoke;
+    padding: 20%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.post-card img{
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.post-card h3{
+    margin-bottom: 10px;
+}
